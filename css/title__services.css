@@ -830,10 +830,9 @@ footer {
 }
 
 @media (max-width: 1500px) {
-  .testimonials {
+  .hidden__btn-1 :nth-child(3) {
     display: none;
   }
-
   .os {
     padding-bottom: 0px;
   }

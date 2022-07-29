@@ -1051,10 +1051,13 @@ footer {
   .testimonials {
     display: none;
   }
-
   .os {
     padding-bottom: 0px;
   }
+  .hidden__btn-1 :nth-child(3) {
+    display: none;
+  }
+
   .footer__container {
     flex-direction: column-reverse;
     gap: 50px;

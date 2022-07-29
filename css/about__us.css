@@ -920,6 +920,10 @@ footer {
     height: 100%;
     margin-top: 40px;
   }
+
+  .hidden__btn-1 :nth-child(3) {
+    display: none;
+  }
   footer {
     margin-top: 200px;
   }
