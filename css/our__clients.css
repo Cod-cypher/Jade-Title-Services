@@ -31,7 +31,6 @@ nav {
   align-items: flex-end;
   height: 10vh;
   position: relative;
-  overflow: hidden;
 }
 
 nav > div > img {
@@ -124,7 +123,7 @@ nav > .nav__menu > .nav__items > a:hover::after {
 
 .hero__section {
   animation: headerBounce 1s;
-  height: 60vh;
+  height: 80vh;
   width: 60%;
   margin: auto;
 
@@ -190,7 +189,6 @@ nav > .nav__menu > .nav__items > a:hover::after {
     transform: translateX(-200%);
   }
 }
-
 /* HIDDEN MENU ITEMSO */
 
 .hidden__div {
@@ -302,6 +300,9 @@ nav > .nav__menu > .nav__items > a:hover::after {
   }
   nav {
     justify-content: flex-end;
+  }
+  header {
+    height: 100vh;
   }
 
   .btn__container {
@@ -472,12 +473,12 @@ nav > .nav__menu > .nav__items > a:hover::after {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   #hide {
     width: 60%;
     z-index: 30;
     font-size: 14px;
-    height: 100vh;
+    height: 90vh;
   }
 
   .btn__container {
@@ -487,7 +488,6 @@ nav > .nav__menu > .nav__items > a:hover::after {
     transform: translateX(80px);
   }
 }
-
 /* CALL TO ACTION */
 .call-to-action {
   height: 20vh;
@@ -804,7 +804,7 @@ footer {
     margin-top: 40px;
   }
   footer {
-    margin-top: 80px;
+    margin-top: 120px;
   }
   .left__container {
     min-height: 320px;

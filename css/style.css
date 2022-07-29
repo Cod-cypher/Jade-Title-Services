@@ -503,7 +503,7 @@ nav > .nav__menu > .nav__items > a:hover::after {
     width: 60%;
     z-index: 30;
     font-size: 14px;
-    height: 100vh;
+    height: 90vh;
   }
 
   .btn__container {

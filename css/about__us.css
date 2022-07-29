@@ -33,7 +33,6 @@ nav {
   align-items: flex-end;
   height: 10vh;
   position: relative;
-  overflow: hidden;
 }
 
 nav > div > img {
@@ -479,7 +478,7 @@ nav > .nav__menu > .nav__items > a:hover::after {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   #hide {
     width: 60%;
     z-index: 30;
@@ -727,13 +726,16 @@ nav > .nav__menu > .nav__items > a:hover::after {
 @media (max-width: 850px) {
   .company_ov__container {
     width: 96vw;
-    height: 100vh;
+    height: 130vh;
     padding: 0;
     gap: 6rem;
   }
 
   .company__overview {
-    height: 130vh;
+    height: 160vh;
+  }
+  .company__services {
+    margin-top: 100px;
   }
   .vis__mis__container {
     padding: 1rem;
@@ -755,11 +757,9 @@ nav > .nav__menu > .nav__items > a:hover::after {
 
 footer {
   height: 50vh;
-  margin-top: 50px;
   width: 100%;
   position: relative;
   background: rgba(104, 88, 88, 0.1);
-  padding-top: 100px;
 }
 
 .footer__container {
@@ -880,7 +880,7 @@ footer {
   align-items: center;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 800px) {
   .testimonials {
     display: none;
   }
@@ -899,7 +899,6 @@ footer {
   }
 
   footer {
-    margin-top: 0;
     padding-bottom: 50px;
   }
 
@@ -922,7 +921,7 @@ footer {
     margin-top: 40px;
   }
   footer {
-    margin-top: 80px;
+    margin-top: 200px;
   }
   .left__container {
     min-height: 320px;
