@@ -31,7 +31,7 @@ nav {
   align-items: flex-end;
   height: 10vh;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 nav > div > img {
@@ -508,11 +508,9 @@ nav > .nav__menu > .nav__items > a:hover::after {
 
   .btn__container {
     width: 60%;
-    z-index: 50;
   }
-  .inner__btn {
-    position: absolute;
-    z-index: 50;
+  #menu-btn {
+    transform: translateX(80px);
   }
 }
 
@@ -1091,7 +1089,7 @@ footer {
     margin-top: 40px;
   }
   footer {
-    margin-top: 50px;
+    margin-top: 80px;
   }
   .left__container {
     min-height: 320px;
