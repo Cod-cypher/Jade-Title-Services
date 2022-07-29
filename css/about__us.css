@@ -6,6 +6,7 @@
   list-style-type: none;
   font-family: "Roboto Mono", monospace;
 }
+
 header {
   height: 100vh;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
@@ -32,6 +33,7 @@ nav {
   align-items: flex-end;
   height: 10vh;
   position: relative;
+  overflow: hidden;
 }
 
 nav > div > img {
